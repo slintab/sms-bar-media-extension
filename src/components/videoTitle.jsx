@@ -13,7 +13,7 @@ export default function VideoTitle({}) {
           "Inter var experimental', 'Inter var', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif"
         }
       >
-        The Not Too Late Show
+        Your favourite Twilio Live Stream 
       </Typography>
     </Box>
   );

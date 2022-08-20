@@ -38,6 +38,7 @@ export default function Participant({ participant }) {
         <Box
           justifyContent="center"
           alignItems="center"
+          
           sx={{
             display: "flex",
             flexWrap: "wrap",
@@ -45,6 +46,8 @@ export default function Participant({ participant }) {
               m: 1,
               width: 500,
               height: 270,
+              color: "rgb(255, 255, 255)",
+              backgroundColor: "rgb(18, 28, 45)",
             },
           }}
         >
@@ -53,7 +56,7 @@ export default function Participant({ participant }) {
             {videoTrack && <Track track={videoTrack} />}
             {!videoTrack && (
               <Box sx={{ m: 3 }} align="center">
-                <Typography variant="h5" color="rgb(18, 28, 45)">
+                <Typography variant="h5">
                   {participant.identity}
                 </Typography>
               </Box>
